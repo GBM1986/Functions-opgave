@@ -51,7 +51,12 @@ function showResult(myEuroResult, myDollarResult, myDanishAmount) {
 
 }
 
+function calculateExchange(danishValue,myExhchange){
+    let myResult = danishValue / myExhchange
 
+    return myResult;
+
+}
 
 
 
